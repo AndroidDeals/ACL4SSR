@@ -1,0 +1,32 @@
+# Unbreak 白名单 不应该被广告链接的网站
+
+# Epicgames
+DOMAIN-SUFFIX,ol.epicgames.com
+
+# Getui
+DOMAIN-SUFFIX,dizhensubao.getui.com
+
+# Google
+DOMAIN,dl.google.com
+DOMAIN-SUFFIX,googletraveladservices.com
+
+# Mozilla
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+
+# Origin
+DOMAIN,origin-a.akamaihd.net
+
+# Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+
+# Strava
+
+# Umeng
+DOMAIN,errlog.umeng.com
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+
+# 4D4Y Forum Bypass
+DOMAIN-SUFFIX,4d4y.com
