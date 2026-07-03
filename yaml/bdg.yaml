@@ -1,3 +1,5 @@
+hide-unmatched-policy: true
+
 rule-providers:
   private:
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml
@@ -110,6 +112,28 @@ proxy-groups:
       - SG AUTO
       - JP AUTO
       - US AUTO
+      - TW AUTO
+      - KR AUTO
+      - DE AUTO
+      - UK AUTO
+      - NL AUTO
+      - TR AUTO
+      - AU AUTO
+      - RU AUTO
+      - IN AUTO
+      - CA AUTO
+      - MY AUTO
+      - BG AUTO
+      - FR AUTO
+      - VN AUTO
+      - MN AUTO
+      - MO AUTO
+      - SE AUTO
+      - IS AUTO
+      - IL AUTO
+      - AE AUTO
+      - PH AUTO
+      - IE AUTO
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
@@ -131,6 +155,28 @@ proxy-groups:
       - SG AUTO
       - JP AUTO
       - US AUTO
+      - TW AUTO
+      - KR AUTO
+      - DE AUTO
+      - UK AUTO
+      - NL AUTO
+      - TR AUTO
+      - AU AUTO
+      - RU AUTO
+      - IN AUTO
+      - CA AUTO
+      - MY AUTO
+      - BG AUTO
+      - FR AUTO
+      - VN AUTO
+      - MN AUTO
+      - MO AUTO
+      - SE AUTO
+      - IS AUTO
+      - IL AUTO
+      - AE AUTO
+      - PH AUTO
+      - IE AUTO
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
     name: Google
     type: select
@@ -139,6 +185,28 @@ proxy-groups:
       - SG AUTO
       - JP AUTO
       - US AUTO
+      - TW AUTO
+      - KR AUTO
+      - DE AUTO
+      - UK AUTO
+      - NL AUTO
+      - TR AUTO
+      - AU AUTO
+      - RU AUTO
+      - IN AUTO
+      - CA AUTO
+      - MY AUTO
+      - BG AUTO
+      - FR AUTO
+      - VN AUTO
+      - MN AUTO
+      - MO AUTO
+      - SE AUTO
+      - IS AUTO
+      - IL AUTO
+      - AE AUTO
+      - PH AUTO
+      - IE AUTO
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
@@ -167,6 +235,161 @@ proxy-groups:
     name: US AUTO
     type: url-test
     interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)台湾|Taiwan|\bTW\b|🇹🇼
+    name: TW AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)韩国|Korea|Seoul|首尔|春川|韩|韓|\bKR\b|🇰🇷
+    name: KR AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)德国|Germany|\bDE\b|\bDEU\b|\bGER\b|Frankfurt|法兰克福|🇩🇪
+    name: DE AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/GB.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)英国|United Kingdom|Great Britain|\bUK\b|\bGB\b|\bENG\b|\bGBR\b|London|伦敦|🇬🇧
+    name: UK AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/NL.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)荷兰|Netherlands|\bNL\b|\bNLD\b|Amsterdam|阿姆斯特丹|🇳🇱
+    name: NL AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TR.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)土耳其|Turkey|\bTR\b|\bTUR\b|Istanbul|伊斯坦布尔|🇹🇷
+    name: TR AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)澳大利亚|澳洲|Australia|\bAU\b|\bAUS\b|Sydney|Melbourne|悉尼|墨尔本|🇦🇺
+    name: AU AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/RU.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)俄罗斯|Russia|\bRU\b|\bRUS\b|Moscow|莫斯科|🇷🇺
+    name: RU AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/IN.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)印度|India|\bIN\b|\bIND\b|Mumbai|孟买|🇮🇳
+    name: IN AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/CA.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)加拿大|Canada|\bCA\b|\bCAN\b|Vancouver|Toronto|温哥华|多伦多|🇨🇦
+    name: CA AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/MY.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)马来西亚|Malaysia|\bMY\b|\bMYS\b|Kuala|吉隆坡|🇲🇾
+    name: MY AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/BG.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)保加利亚|Bulgaria|\bBG\b|\bBGR\b|🇧🇬
+    name: BG AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)法国|France|\bFR\b|\bFRA\b|Paris|巴黎|🇫🇷
+    name: FR AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/VN.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)越南|Vietnam|\bVN\b|\bVNM\b|Hanoi|河内|胡志明|🇻🇳
+    name: VN AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/MN.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)蒙古|Mongolia|\bMN\b|\bMNG\b|🇲🇳
+    name: MN AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/MO.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)澳门|Macao|Macau|\bMO\b|\bMAC\b|🇲🇴
+    name: MO AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SE.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)瑞典|Sweden|\bSE\b|\bSWE\b|Stockholm|斯德哥尔摩|🇸🇪
+    name: SE AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/IS.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)冰岛|Iceland|\bIS\b|\bISL\b|🇮🇸
+    name: IS AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/IL.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)以色列|Israel|\bIL\b|\bISR\b|🇮🇱
+    name: IL AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/AE.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)阿联酋|\bUAE\b|\bAE\b|United Arab Emirates|🇦🇪
+    name: AE AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/PH.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)菲律宾|Philippines|\bPH\b|\bPHL\b|Manila|马尼拉|🇵🇭
+    name: PH AUTO
+    type: url-test
+    interval: 300
+  - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/IE.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)爱尔兰|Ireland|\bIE\b|\bIRL\b|Dublin|都柏林|🇮🇪
+    name: IE AUTO
+    type: url-test
+    interval: 300
+
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
